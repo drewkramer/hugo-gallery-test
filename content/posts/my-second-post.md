@@ -4,6 +4,10 @@ gallery = ["/uploads/photo-1577643816920-65b43ba99fba.webp", "/uploads/photo-157
 pick_color = "#7ED321"
 title = "My second post"
 [[repeater]]
+avatar = "/uploads/photo-1577949239703-4e1d8aa72824.webp"
+email = "tyler@gmail.com"
+name = "Tyler"
+[[repeater]]
 avatar = "/uploads/photo-1577643816920-65b43ba99fba.webp"
 email = "drewjkramer@gmail.com"
 name = "Drew"
