@@ -48,5 +48,9 @@ fields:
     min: 
     max: 
   label: sortable
+- name: show_cat
+  type: boolean
+  label: show cat
+  default: true
 pages:
 - content/posts/my-second-post.md
