@@ -8,5 +8,9 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
 pages:
 - content/posts/my-second-post.md
