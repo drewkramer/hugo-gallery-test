@@ -5,7 +5,7 @@ pick_color = ""
 repeater = []
 show_cat = false
 sortable = []
-title = "My second post"
+title = "My Second Post"
 
 +++
 This is my second post!
