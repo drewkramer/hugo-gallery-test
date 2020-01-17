@@ -12,5 +12,11 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+- name: pick_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: pick color
 pages:
 - content/posts/my-second-post.md
