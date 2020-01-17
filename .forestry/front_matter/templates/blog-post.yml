@@ -12,3 +12,5 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+pages:
+- content/posts/my-second-post.md
