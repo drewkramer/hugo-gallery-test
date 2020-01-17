@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<article>
+
+    <!-- Post Title -->
+    <h1>{{ .Title }}</h1>
+
+    <!-- Post Content -->
+    <div class="content-container">
+        {{ .Content }}
+    </div>
+
+    <!-- Post Gallery -->
+    <div class="gallery">
+    {{ range .Params.gallery }}
+        <img src="{{ . }}" alt="An image from {{$.Params.Title}} gallery">
+    {{ end }}
+    </div>
+
+</article>
+
+{{ end }}
