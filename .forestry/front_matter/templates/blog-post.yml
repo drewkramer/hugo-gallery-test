@@ -18,5 +18,28 @@ fields:
     required: false
     color_format: Hex
   label: pick color
+- name: repeater
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
+  - name: email
+    type: text
+    config:
+      required: false
+    label: email
+  - name: avatar
+    type: file
+    config:
+      maxSize: 250
+    label: avatar
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: repeater
 pages:
 - content/posts/my-second-post.md
