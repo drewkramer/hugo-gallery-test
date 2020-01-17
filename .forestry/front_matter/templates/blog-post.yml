@@ -41,5 +41,12 @@ fields:
     max: 
     labelField: 
   label: repeater
+- name: sortable
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: sortable
 pages:
 - content/posts/my-second-post.md
